@@ -104,8 +104,85 @@ recipes.addShaped(<harvestcraft:shippingbin>,[
     [<extrabotany:friedchicken>,<biomesoplenty:gem:1>,<extrabotany:friedchicken>],
     [<biomesoplenty:planks_0:13>,<harvestcraft:pampaperbark>,<biomesoplenty:planks_0:13>]]);
 
-/*
 
+//第三列箱子
+recipes.remove(<botania:pool>);
+recipes.addShaped(<botania:pool>,[
+    [<botania:specialflower>.withTag({type: "puredaisy"}),<thermalfoundation:material:26>,<botania:specialflower>.withTag({type: "puredaisy"})],
+    [<botania:livingrock>,<botania:manatablet>,<botania:livingrock>],
+    [<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
+
+recipes.remove(<botania:terraplate>);
+recipes.addShaped(<botania:terraplate>,[
+    [<minecraft:lapis_block>,<minecraft:lapis_block>,<minecraft:lapis_block>],
+    [<botania:rune:6>,<botania:storage>,<botania:rune:5>],
+    [<botania:rune:7>,<minecraft:diamond_block>,<botania:rune:4>]]);
+
+recipes.remove(<botania:pylon>);
+recipes.addShaped(<botania:pylon>,[
+    [<minecraft:redstone_block>,<thaumcraft:ingot:2>,<minecraft:redstone_block>],
+    [<botania:manaresource>,<botania:manaresource:1>,<botania:manaresource>],
+    [<minecraft:redstone_block>,<thaumcraft:ingot:2>,<minecraft:redstone_block>]]);
+
+recipes.remove(<botania:pylon:1>);
+recipes.addShaped(<botania:pylon:1>,[
+    [null,<botania:manaresource:4>,null],
+    [<botania:manaresource:4>,<botania:pylon>,<botania:manaresource:4>],
+    [<thaumcraft:fabric>,<botania:storage>,<thaumcraft:fabric>]]);
+
+
+
+recipes.remove(<thermalfoundation:material:514>);
+recipes.addShaped(<thermalfoundation:material:514>,[
+    [null,null,<mekanism:enrichedalloy>],
+    [null,<thermalfoundation:material:322>,null],
+    [<mekanism:enrichedalloy>,null,null]]);
+
+recipes.remove(<thermalfoundation:material:513>);
+recipes.addShaped(<thermalfoundation:material:513>,[
+    [null,null,<mekanism:enrichedalloy>],
+    [null,<thermalfoundation:material:33>,null],
+    [<mekanism:enrichedalloy>,null,null]]);
+
+recipes.remove(<thermalfoundation:material:515>);
+recipes.addShaped(<thermalfoundation:material:515>,[
+    [<mekanism:enrichedalloy>,null,null],
+    [null,<thermalfoundation:material:353>,null],
+    [null,null,<mekanism:enrichedalloy>]]);
+
+recipes.remove(<thermalfoundation:material:512>);
+recipes.addShaped(<thermalfoundation:material:512>,[
+    [null,<mekanism:enrichedalloy>,null],
+    [null,<thermalfoundation:material:32>,null],
+    [null,<mekanism:enrichedalloy>,null]]);
+
+
+
+recipes.remove(<ic2:dust:6>);
+recipes.addShaped(<ic2:dust:6>*9,[
+    [<mekanism:enrichedalloy>,<ic2:dust:5>,<mekanism:enrichedalloy>],
+    [<ic2:dust:5>,<mekanism:controlcircuit:1>,<ic2:dust:5>],
+    [<mekanism:enrichedalloy>,<ic2:dust:5>,<mekanism:enrichedalloy>]]);
+
+recipes.remove(<ic2:lapotron_crystal:26>);
+recipes.addShaped(<ic2:lapotron_crystal:26>,[
+    [<enderio:item_material:36>,<mekanism:controlcircuit:1>,<enderio:item_material:36>],
+    [<enderio:item_material:36>,<ic2:energy_crystal:26>,<enderio:item_material:36>],
+    [<enderio:item_material:36>,<mekanism:controlcircuit:1>,<enderio:item_material:36>]]);
+
+recipes.remove(<appliedenergistics2:controller>);
+recipes.addShaped(<appliedenergistics2:controller>,[
+    [<thermalfoundation:storage_alloy>,<appliedenergistics2:material:12>,<thermalfoundation:storage_alloy>],
+    [<appliedenergistics2:material:12>,<appliedenergistics2:material:24>,<appliedenergistics2:material:12>],
+    [<thermalfoundation:storage_alloy>,<appliedenergistics2:material:12>,<thermalfoundation:storage_alloy>]]);
+
+recipes.remove(<draconicevolution:fusion_crafting_core>);
+recipes.addShaped(<draconicevolution:fusion_crafting_core>,[
+    [<thaumadditions:mithrillium_block>,<thermalfoundation:material:359>,<thaumadditions:mithrillium_block>],
+    [<thermalfoundation:material:359>,<draconicevolution:draconic_core>,<thermalfoundation:material:359>],
+    [<thaumadditions:mithrillium_block>,<thermalfoundation:material:359>,<thaumadditions:mithrillium_block>]]);
+
+/*
 recipes.remove(null);
 recipes.addShaped(null,[
     [null,null,null],
