@@ -275,6 +275,30 @@ recipes.addShaped(<botania:altar>,[
 
 
 
+//第五列最下面
+recipes.remove(<thermalexpansion:frame>);
+recipes.addShaped(<thermalexpansion:frame>,[
+    [<thermalfoundation:material:32>,<tconstruct:clear_glass>,<thermalfoundation:material:32>],
+    [<tconstruct:clear_glass>,<thermalfoundation:material:257>,<tconstruct:clear_glass>],
+    [<thermalfoundation:material:32>,<tconstruct:clear_glass>,<thermalfoundation:material:32>]]);
+
+recipes.remove(<thermalexpansion:frame:64>);
+recipes.addShaped(<thermalexpansion:frame:64>,[
+    [<thermalfoundation:material:321>,<tconstruct:clear_glass>,<thermalfoundation:material:321>],
+    [<tconstruct:clear_glass>,<thermalfoundation:material:256>,<tconstruct:clear_glass>],
+    [<thermalfoundation:material:321>,<tconstruct:clear_glass>,<thermalfoundation:material:321>]]);
+
+recipes.remove(<enderio:block_alloy_smelter>);
+recipes.addShaped(<enderio:block_alloy_smelter>,[
+    [<enderio:item_alloy_ingot:6>,<ic2:te:46>,<enderio:item_alloy_ingot:6>],
+    [<ic2:te:46>,<enderio:item_material:1>,<ic2:te:46>],
+    [<thermalfoundation:material:288>,<thaumcraft:crucible>,<thermalfoundation:material:288>]]);
+
+recipes.remove(<enderio:block_sag_mill>);
+recipes.addShaped(<enderio:block_sag_mill>,[
+    [<enderio:item_alloy_ball:6>,<enderio:item_alloy_ingot:6>,<enderio:item_alloy_ball:6>],
+    [<enderio:item_alloy_ingot:6>,<enderio:item_material:1>,<enderio:item_alloy_ingot:6>],
+    [null,<ic2:te:47>,null]]);
 
 
 /*
