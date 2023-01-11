@@ -182,6 +182,112 @@ recipes.addShaped(<draconicevolution:fusion_crafting_core>,[
     [<thermalfoundation:material:359>,<draconicevolution:draconic_core>,<thermalfoundation:material:359>],
     [<thaumadditions:mithrillium_block>,<thermalfoundation:material:359>,<thaumadditions:mithrillium_block>]]);
 
+//第四列
+recipes.remove(<botania:pylon:2>);
+recipes.addShaped(<botania:pylon:2>,[
+    [<ic2:dust:6>,null,<ic2:dust:6>],
+    [<botania:pylon>,<botania:storage:4>,<botania:pylon>],
+    [<ic2:ingot:5>,null,<ic2:ingot:5>]]);
+
+recipes.remove(<botania:spreader>);
+recipes.addShaped(<botania:spreader>,[
+    [<botania:livingwood>,<botania:livingwood>,<botania:livingwood>],
+    [<botania:quartz>,<minecraft:gold_ingot>,<botania:petal>],
+    [<botania:livingwood>,<botania:livingwood>,<botania:livingwood>]]);
+
+recipes.remove(<thaumcraft:fabric>);
+recipes.addShaped(<thaumcraft:fabric>,[
+    [null,<botania:manaresource:16>,null],
+    [<botania:manaresource:16>,<minecraft:wool>,<botania:manaresource:16>],
+    [null,<botania:manaresource:16>,null]]);
+
+recipes.remove(<botania:pool:3>);
+recipes.addShaped(<botania:pool:3>,[
+    [null,null,null],
+    [<botania:spark>,<botania:pool>,<botania:spark>],
+    [<botania:elfglass>,<botania:elfglass>,<botania:elfglass>]]);
+
+
+
+recipes.remove(<botania:spreader:2>);
+recipes.addShaped(<botania:spreader:2>,[
+    [<botania:manaresource:9>,<botania:dreamwood>,<botania:dreamwood>],
+    [<botania:manaresource:8>,<botania:spreader>,<botania:manaresource:7>],
+    [<botania:manaresource:9>,<botania:dreamwood>,<botania:dreamwood>]]);
+
+recipes.remove(<botania:spreader:3>);
+recipes.addShaped(<botania:spreader:3>,[
+    [<botania:dreamwood>,<botania:manaresource:4>,null],
+    [<botania:manaresource:14>,<botania:spreader:2>,<botania:manaresource:14>],
+    [<botania:dreamwood>,<botania:manaresource:4>,null]]);
+
+recipes.remove(<botania:runealtar>);
+recipes.addShaped(<botania:runealtar>,[
+    [<botania:livingrock>,<thermalfoundation:material:26>,<botania:livingrock>],
+    [<botania:livingrock>,<botania:manatablet>,<botania:livingrock>],
+    [<botania:livingrock>,<thermalfoundation:material:26>,<botania:livingrock>]]);
+
+recipes.remove(<botania:alfheimportal>);
+recipes.addShaped(<botania:alfheimportal>,[
+    [<botania:livingwood>,<botania:livingwood>,<botania:livingwood>],
+    [<minecraft:blaze_rod>,<botania:manaresource:4>,<minecraft:blaze_rod>],
+    [<botania:livingwood>,<botania:livingwood>,<botania:livingwood>]]);
+
+
+
+recipes.remove(<draconicevolution:particle_generator>);
+recipes.addShaped(<draconicevolution:particle_generator>,[
+    [<enderio:block_alloy:3>,<thermalfoundation:material:2048>,<enderio:block_alloy:3>],
+    [<thermalfoundation:material:2052>,<draconicevolution:draconic_core>,<thermalfoundation:material:2050>],
+    [<enderio:block_alloy:3>,<minecraft:blaze_rod>,<enderio:block_alloy:3>]]);
+
+recipes.remove(<draconicevolution:particle_generator:2>);
+recipes.addShaped(<draconicevolution:particle_generator:2>,[
+    [<enderio:item_material:14>,null,<enderio:item_material:14>],
+    [null,<draconicevolution:particle_generator>,null],
+    [<enderio:item_material:14>,null,<enderio:item_material:14>]]);
+
+recipes.remove(<draconicevolution:energy_pylon>);
+recipes.addShaped(<draconicevolution:energy_pylon>,[
+    [<draconicevolution:draconium_ingot>,<minecraft:ender_eye>,<draconicevolution:draconium_ingot>],
+    [<enderio:item_material:15>,<draconicevolution:draconic_core>,<enderio:item_material:15>],
+    [<draconicevolution:draconium_ingot>,<minecraft:diamond_block>,<draconicevolution:draconium_ingot>]]);
+
+recipes.remove(<draconicevolution:crafting_injector>);
+recipes.addShaped(<draconicevolution:crafting_injector>,[
+    [<thermalfoundation:material:26>,<draconicevolution:draconic_core>,<thermalfoundation:material:26>],
+    [<botania:quartztypedark>,<enderio:block_alloy:6>,<botania:quartztypedark>],
+    [<botania:quartztypedark>,<botania:quartztypedark>,<botania:quartztypedark>]]);
+
+
+
+recipes.remove(null);
+recipes.addShaped(null,[
+    [null,null,null],
+    [null,null,null],
+    [null,null,null]]);
+
+recipes.remove(null);
+recipes.addShaped(null,[
+    [null,null,null],
+    [null,null,null],
+    [null,null,null]]);
+
+recipes.remove(null);
+recipes.addShaped(null,[
+    [null,null,null],
+    [null,null,null],
+    [null,null,null]]);
+
+recipes.remove(null);
+recipes.addShaped(null,[
+    [null,null,null],
+    [null,null,null],
+    [null,null,null]]);
+
+
+
+
 /*
 recipes.remove(null);
 recipes.addShaped(null,[
