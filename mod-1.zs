@@ -260,30 +260,19 @@ recipes.addShaped(<draconicevolution:crafting_injector>,[
     [<botania:quartztypedark>,<botania:quartztypedark>,<botania:quartztypedark>]]);
 
 
+//第五列目前只有一个
+recipes.remove(<extrabotany:pedestal>);
+recipes.addShaped(<extrabotany:pedestal>,[
+    [<botania:livingrock>,<minecraft:gold_ingot>,<botania:livingrock>],
+    [null,<botania:livingrock>,null],
+    [<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
 
-recipes.remove(null);
-recipes.addShaped(null,[
-    [null,null,null],
-    [null,null,null],
-    [null,null,null]]);
+recipes.remove(<botania:altar>);
+recipes.addShaped(<botania:altar>,[
+    [<minecraft:stone>,<thermalfoundation:material:26>,<minecraft:stone>],
+    [null,<minecraft:stone>,null],
+    [<minecraft:stone>,<minecraft:stone>,<minecraft:stone>]]);
 
-recipes.remove(null);
-recipes.addShaped(null,[
-    [null,null,null],
-    [null,null,null],
-    [null,null,null]]);
-
-recipes.remove(null);
-recipes.addShaped(null,[
-    [null,null,null],
-    [null,null,null],
-    [null,null,null]]);
-
-recipes.remove(null);
-recipes.addShaped(null,[
-    [null,null,null],
-    [null,null,null],
-    [null,null,null]]);
 
 
 
