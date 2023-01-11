@@ -1,3 +1,4 @@
+//第一列
 recipes.remove(<mekanism:energycube>.withTag({tier: 3}));
 recipes.addShaped(<mekanism:energycube>.withTag({tier: 3}),[
     [<thermalfoundation:material:294>,<mekanism:atomicalloy>,<thermalfoundation:material:294>],
@@ -159,6 +160,7 @@ recipes.addShaped(<thermalfoundation:material:512>,[
 
 
 recipes.remove(<ic2:dust:6>);
+recipes.remove(<ic2:dust:6>*9);
 recipes.addShaped(<ic2:dust:6>*9,[
     [<mekanism:enrichedalloy>,<ic2:dust:5>,<mekanism:enrichedalloy>],
     [<ic2:dust:5>,<mekanism:controlcircuit:1>,<ic2:dust:5>],
@@ -299,6 +301,86 @@ recipes.addShaped(<enderio:block_sag_mill>,[
     [<enderio:item_alloy_ball:6>,<enderio:item_alloy_ingot:6>,<enderio:item_alloy_ball:6>],
     [<enderio:item_alloy_ingot:6>,<enderio:item_material:1>,<enderio:item_alloy_ingot:6>],
     [null,<ic2:te:47>,null]]);
+
+
+//ME控制器上的一组
+//to-do: 测试MFE和各种水晶的.withoutTag()
+recipes.remove(<enderio:block_enhanced_sag_mill>);
+recipes.addShaped(<enderio:block_enhanced_sag_mill>,[
+    [<ic2:ingot:1>,<ic2:ingot:1>,<ic2:ingot:1>],
+    [<enderio:item_alloy_ingot:8>,<enderio:item_material:54>,<enderio:item_alloy_ingot:8>],
+    [<enderio:item_material:13>,<ic2:te:74>,<enderio:item_material:13>]]);
+
+recipes.remove(<enderio:block_farm_station>);
+recipes.addShaped(<enderio:block_farm_station>,[
+    [<enderio:item_material:15>,<enderio:item_material:41>,<enderio:item_material:15>],
+    [<ic2:crafting:3>,<enderio:item_material:54>,<ic2:crafting:3>],
+    [<enderio:item_material:12>,<enderio:item_material:14>,<enderio:item_material:12>]]);
+
+recipes.remove(<enderio:block_enhanced_alloy_smelter>);
+recipes.addShaped(<enderio:block_enhanced_alloy_smelter>,[
+    [<enderio:item_alloy_ingot:8>,<ic2:te:54>,<enderio:item_alloy_ingot:8>],
+    [<ic2:te:54>,<enderio:item_material:54>,<ic2:te:54>],
+    [<enderio:item_material:13>,<ic2:te:74>,<enderio:item_material:13>]]);
+
+recipes.remove(<enderio:block_vacuum_chest>);
+recipes.addShaped(<enderio:block_vacuum_chest>,[
+    [<ic2:crafting:3>,<ic2:crafting:3>,<ic2:crafting:3>],
+    [<ic2:crafting:3>,<thermalexpansion:device:12>.withoutTag(),<ic2:crafting:3>],
+    [<ic2:crafting:3>,<enderio:item_material:14>,<ic2:crafting:3>]]);
+
+
+recipes.remove(<ic2:nano_helmet:26>);
+recipes.addShaped(<ic2:nano_helmet:26>,[
+    [<ic2:crafting:15>,<ic2:crafting:15>,<ic2:crafting:15>],
+    [<mekanism:controlcircuit:2>,<ic2:energy_crystal:26>,<mekanism:controlcircuit:2>],
+    [null,<ic2:nightvision_goggles:26>,null]]);
+
+recipes.remove(<ic2:nano_leggings:26>);
+recipes.addShaped(<ic2:nano_leggings:26>,[
+    [<mekanism:controlcircuit:2>,<ic2:energy_crystal:26>,<mekanism:controlcircuit:2>],
+    [<ic2:crafting:15>,<mekanism:reinforcedalloy>,<ic2:crafting:15>],
+    [<ic2:crafting:15>,null,<ic2:crafting:15>]]);
+
+recipes.remove(<ic2:nano_chestplate:26>);
+recipes.addShaped(<ic2:nano_chestplate:26>,[
+    [<ic2:crafting:15>,null,<ic2:crafting:15>],
+    [<ic2:crafting:15>,<ic2:energy_crystal:26>,<ic2:crafting:15>],
+    [<mekanism:controlcircuit:2>,<mekanism:reinforcedalloy>,<mekanism:controlcircuit:2>]]);
+
+recipes.remove(<ic2:nano_boots:26>);
+recipes.addShaped(<ic2:nano_boots:26>,[
+    [null,null,null],
+    [<ic2:crafting:15>,<ic2:static_boots>,<ic2:crafting:15>],
+    [<mekanism:controlcircuit:2>,<ic2:energy_crystal:26>,<mekanism:controlcircuit:2>]]);
+
+
+recipes.remove(<ic2:quantum_helmet:26>);
+recipes.addShaped(<ic2:quantum_helmet:26>,[
+    [<ic2:glass>,<ic2:nano_helmet:26>,<ic2:glass>],
+    [<ic2:crafting:4>,<ic2:lapotron_crystal:26>,<ic2:crafting:4>],
+    [<enderio:block_solar_panel:2>,<ic2:hazmat_helmet>,<enderio:block_solar_panel:2>]]);
+
+recipes.remove(<ic2:quantum_leggings:26>);
+recipes.addShaped(<ic2:quantum_leggings:26>,[
+    [<ic2:resource:13>,<ic2:lapotron_crystal:26>,<ic2:resource:13>],
+    [<ic2:crafting:4>,<ic2:nano_leggings:26>,<ic2:crafting:4>],
+    [<enderio:item_material:36>,<ic2:lapotron_crystal:26>,<enderio:item_material:36>]]);
+
+recipes.remove(<ic2:quantum_chestplate:26>);
+recipes.addShaped(<ic2:quantum_chestplate:26>,[
+    [<enderio:item_alloy_ingot:8>,<ic2:nano_chestplate:26>,<enderio:item_alloy_ingot:8>],
+    [<ic2:crafting:4>,<ic2:lapotron_crystal:26>,<ic2:crafting:4>],
+    [<ic2:crafting:4>,<mekanism:jetpack>,<ic2:crafting:4>]]);
+
+recipes.remove(<ic2:quantum_boots:26>);
+recipes.addShaped(<ic2:quantum_boots:26>,[
+    [<enderio:item_dark_steel_boots>,<enderio:item_dark_steel_boots>,<enderio:item_dark_steel_boots>],
+    [<ic2:crafting:4>,<ic2:nano_boots:26>,<ic2:crafting:4>],
+    [<enderio:item_dark_steel_boots>,<ic2:lapotron_crystal:26>,<enderio:item_dark_steel_boots>]]);
+
+
+
 
 
 /*
