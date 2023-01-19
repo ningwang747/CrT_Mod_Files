@@ -305,6 +305,7 @@ recipes.addShaped(<enderio:block_sag_mill>,[
 
 //ME控制器上的一组
 //to-do: 测试MFE和各种水晶的.withoutTag()
+// nope it never works
 recipes.remove(<enderio:block_enhanced_sag_mill>);
 recipes.addShaped(<enderio:block_enhanced_sag_mill>,[
     [<ic2:ingot:1>,<ic2:ingot:1>,<ic2:ingot:1>],
@@ -326,7 +327,7 @@ recipes.addShaped(<enderio:block_enhanced_alloy_smelter>,[
 recipes.remove(<enderio:block_vacuum_chest>);
 recipes.addShaped(<enderio:block_vacuum_chest>,[
     [<ic2:crafting:3>,<ic2:crafting:3>,<ic2:crafting:3>],
-    [<ic2:crafting:3>,<thermalexpansion:device:12>.withoutTag(),<ic2:crafting:3>],
+    [<ic2:crafting:3>,<thermalexpansion:device:12>,<ic2:crafting:3>],
     [<ic2:crafting:3>,<enderio:item_material:14>,<ic2:crafting:3>]]);
 
 
